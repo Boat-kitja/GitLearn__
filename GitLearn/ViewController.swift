@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     }
 
     override func viewDidLayoutSubviews() {
-        ??
+        func dog(){
+            print("HI")
+        }
     }
 }
 
