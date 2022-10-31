@@ -22,12 +22,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Potato App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHH-4F-iVe">
+                                <rect key="frame" x="150" y="54" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="oHH-4F-iVe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="Hoe-od-ZfL"/>
+                            <constraint firstItem="oHH-4F-iVe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="NFx-8r-6un"/>
                             <constraint firstItem="Jiv-uC-YhI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qee-Hs-KMD"/>
                             <constraint firstItem="Jiv-uC-YhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sge-KF-uLv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oHH-4F-iVe" secondAttribute="trailing" constant="150" id="UsD-JC-e6H"/>
                         </constraints>
                     </view>
                 </viewController>
